@@ -1,27 +1,26 @@
 /* Estilos generales del cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
+    font-family: Arial, sans-serif; /* Fuente limpia y legible para todo el documento */
+    background-color: #f0f8ff;      /* Color de fondo azul muy claro, para una apariencia amigable */
+    display: flex;                  /* Se aplica Flexbox para alinear el contenido */
+    justify-content: center;        /* Centra horizontalmente el contenido dentro del <body> */
+    align-items: center;            /* Centra verticalmente el contenido */
+    height: 100vh;                  /* Altura del body igual al 100% del alto del viewport (pantalla) */
+    margin: 0;                      /* Elimina el margen por defecto del navegador */
+}
   
-  /* Estilo del contenedor principal */
-  .container {
-    text-align: center;
-    background-color: #ffffff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
+/* Estilo del contenedor principal */
+.container {
+    text-align: center;                   /* Centra el texto dentro del contenedor */
+    background-color: #ffffff;           /* Fondo blanco para diferenciarlo del fondo del body */
+    padding: 2rem;                       /* Espaciado interno generoso para que el contenido respire */
+    border-radius: 10px;                 /* Bordes redondeados para una apariencia suave y moderna */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para elevar visualmente el contenedor */
+}
   
-  /* Estilo del texto donde aparecerá la excusa */
-  #excuse {
-    margin-top: 20px;
-    font-size: 1.5rem;
-    color: #333;
-  }
-  
+ /* Estilo del texto donde aparecerá la excusa */
+#excuse {
+    margin-top: 20px;   /* Espacio superior para separar del título o contenido anterior */
+    font-size: 1.5rem;  /* Tamaño de fuente grande para destacar el texto de la excusa */
+    color: #333;        /* Color gris oscuro para una lectura cómoda */
+}

@@ -23,3 +23,7 @@ window.onload = function () {
   // Se cambia el contenido del elemento con la excusa generada
   excuseElement.innerHTML = generateExcuse();
 };
+
+
+
+
